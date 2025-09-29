@@ -1,20 +1,20 @@
-# 🧬 Inheritance in C++
+# Inheritance in C++
 
 ---
 
-## 🎯 Aim  
+#Aim  
 To understand and implement different types of **inheritance in C++**, exploring how classes can reuse and extend functionality through hierarchical relationships.
 
 ---
 
-## 📚 Theory  
+## Theory  
 
 **Inheritance** is one of the core concepts of **Object-Oriented Programming (OOP)**.  
 It allows a class (called the **derived class**) to acquire the properties and behaviors of another class (called the **base class**).
 
 ---
 
-### 🔑 Key Points  
+## Key Points  
 
 - **Base Class:** The class whose members are inherited.  
 - **Derived Class:** The class that inherits from the base class.  
@@ -25,7 +25,7 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-### 🏗️ Types of Inheritance  
+## Types of Inheritance  
 
 1. **Single Inheritance**  
    - One base class → One derived class.  
@@ -48,9 +48,9 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-## 📋 Algorithms  
+## Algorithms  
 
-### 🧾 Single Inheritance  
+## Single Inheritance  
 
 1. **Start**  
 2. Define a base class `Vehicle` with a method `color()`.  
@@ -62,7 +62,7 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-### 🏗️ Multilevel Inheritance  
+## Multilevel Inheritance  
 
 1. **Start**  
 2. Define base class `University` with `showUni()`.  
@@ -75,7 +75,7 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-### 🌳 Hierarchical Inheritance  
+## Hierarchical Inheritance  
 
 1. **Start**  
 2. Define base class `University`.  
@@ -88,7 +88,7 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-### 🔗 Multiple Inheritance  
+## Multiple Inheritance  
 
 1. **Start**  
 2. Define base class `University`.  
@@ -101,7 +101,7 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-### 🌀 Hybrid Inheritance  
+## Hybrid Inheritance  
 
 1. **Start**  
 2. Combine hierarchical + multiple inheritance.  
@@ -114,13 +114,13 @@ It allows a class (called the **derived class**) to acquire the properties and b
 
 ---
 
-## 🧠 Conclusion  
+## Conclusion  
 
 This experiment demonstrates the power of **inheritance** in C++:  
 
-- ♻️ **Code Reusability** – Base class features are reused in derived classes.  
-- 🏗️ **Extensibility** – Derived classes can add new features.  
-- 🌳 **Hierarchy Modeling** – Real-world relationships (University → Department → Lab) can be represented.  
-- ⚡ **Flexibility** – Supports single, multilevel, hierarchical, multiple, and hybrid inheritance.  
+- **Code Reusability** – Base class features are reused in derived classes.  
+- **Extensibility** – Derived classes can add new features.  
+- **Hierarchy Modeling** – Real-world relationships (University → Department → Lab) can be represented.  
+- **Flexibility** – Supports single, multilevel, hierarchical, multiple, and hybrid inheritance.  
 
-👉 Inheritance is the foundation for **polymorphism** and advanced OOP design.
+Inheritance is the foundation for **polymorphism** and advanced OOP design.
